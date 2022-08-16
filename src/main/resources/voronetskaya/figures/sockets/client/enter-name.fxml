@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="140.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="voronetskaya.figures.sockets.client.EnterNameController">
+   <children>
+      <Label layoutX="139.0" layoutY="14.0" prefHeight="18.0" prefWidth="252.0" text="Введите Ваше имя:" />
+      <TextField fx:id="nameField" layoutX="32.0" layoutY="46.0" prefHeight="26.0" prefWidth="325.0" />
+      <Button layoutX="169.0" layoutY="91.0" mnemonicParsing="false" onAction="#readyButtonClick" prefHeight="26.0" prefWidth="54.0" text="Готово" />
+   </children>
+</AnchorPane>
