@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: voronetskaya.figures.sockets.server.Server
-
